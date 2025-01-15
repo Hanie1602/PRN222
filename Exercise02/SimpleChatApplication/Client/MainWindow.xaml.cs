@@ -21,27 +21,37 @@ namespace Client
 		{
 			try
 			{
-				string ipAddressServer = "127.0.0.1";
+				string serverAddress = "127.0.0.1";
 				int port;
 
 				//Yêu cầu người dùng nhập port
-				do
+				string input = Microsoft.VisualBasic.Interaction.InputBox("Enter server port:", "Connect to Server", "5000");
+
+				//Nhấn nút "Cancel"
+				if (string.IsNullOrWhiteSpace(input))
 				{
-					string input = Microsoft.VisualBasic.Interaction.InputBox("Enter server port: ", "Connect to Server", "12345");
-					if (int.TryParse(input, out port))
-						break;
+					MessageBox.Show("Connection canceled by user.", "Canceled", MessageBoxButton.OK, MessageBoxImage.Information);
+					Application.Current.Shutdown();
+					return;
+				}
 
-					MessageBox.Show("Invalid port. Please enter a valid number.");
-				} while (true);
+				if (!int.TryParse(input, out port))
+				{
+					MessageBox.Show("Invalid port. Please restart the application and enter a valid number.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+					Application.Current.Shutdown(); 
+					return;
+				}
 
-				_client = new TcpClient(ipAddressServer, port);
+				_client = new TcpClient(serverAddress, port);
 				_writer = new StreamWriter(_client.GetStream(), Encoding.UTF8) { AutoFlush = true };
 				_receiveThread = new Thread(ReceiveMessages) { IsBackground = true };
 				_receiveThread.Start();
+				MessageBox.Show($"Connected to server on port {port}");
 			}
 			catch (Exception ex)
 			{
 				MessageBox.Show("Failed to connect to server: " + ex.Message);
+				Application.Current.Shutdown(); //Đóng ứng dụng
 			}
 		}
 
