@@ -6,14 +6,14 @@ using System.Windows;
 namespace Client
 {
 	public partial class MainWindow : Window
-    {
+	{
 		private TcpClient _client;
 		private StreamWriter _writer;
 		private Thread _receiveThread;
 
 		public MainWindow()
-        {
-            InitializeComponent();
+		{
+			InitializeComponent();
 			ConnectToServer();
 		}
 
@@ -21,7 +21,20 @@ namespace Client
 		{
 			try
 			{
-				_client = new TcpClient("127.0.0.1", 12345);
+				string ipAddressServer = "127.0.0.1";
+				int port;
+
+				//Yêu cầu người dùng nhập port
+				do
+				{
+					string input = Microsoft.VisualBasic.Interaction.InputBox("Enter server port: ", "Connect to Server", "12345");
+					if (int.TryParse(input, out port))
+						break;
+
+					MessageBox.Show("Invalid port. Please enter a valid number.");
+				} while (true);
+
+				_client = new TcpClient(ipAddressServer, port);
 				_writer = new StreamWriter(_client.GetStream(), Encoding.UTF8) { AutoFlush = true };
 				_receiveThread = new Thread(ReceiveMessages) { IsBackground = true };
 				_receiveThread.Start();
@@ -40,7 +53,7 @@ namespace Client
 				while (true)
 				{
 					string? message = reader.ReadLine();
-					if (message == null) 
+					if (message == null)
 						break;
 
 					Dispatcher.Invoke(() => ChatBox.AppendText(message + Environment.NewLine));
