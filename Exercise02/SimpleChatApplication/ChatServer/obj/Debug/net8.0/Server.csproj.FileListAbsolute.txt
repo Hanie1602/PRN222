@@ -1,0 +1,15 @@
+D:\SWD392\TeamGit\PRN-with-team\Exercise02\SimpleChatApplication\ChatServer\bin\Debug\net8.0\Server.exe
+D:\SWD392\TeamGit\PRN-with-team\Exercise02\SimpleChatApplication\ChatServer\bin\Debug\net8.0\Server.deps.json
+D:\SWD392\TeamGit\PRN-with-team\Exercise02\SimpleChatApplication\ChatServer\bin\Debug\net8.0\Server.runtimeconfig.json
+D:\SWD392\TeamGit\PRN-with-team\Exercise02\SimpleChatApplication\ChatServer\bin\Debug\net8.0\Server.dll
+D:\SWD392\TeamGit\PRN-with-team\Exercise02\SimpleChatApplication\ChatServer\bin\Debug\net8.0\Server.pdb
+D:\SWD392\TeamGit\PRN-with-team\Exercise02\SimpleChatApplication\ChatServer\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\SWD392\TeamGit\PRN-with-team\Exercise02\SimpleChatApplication\ChatServer\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
+D:\SWD392\TeamGit\PRN-with-team\Exercise02\SimpleChatApplication\ChatServer\obj\Debug\net8.0\Server.AssemblyInfo.cs
+D:\SWD392\TeamGit\PRN-with-team\Exercise02\SimpleChatApplication\ChatServer\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
+D:\SWD392\TeamGit\PRN-with-team\Exercise02\SimpleChatApplication\ChatServer\obj\Debug\net8.0\Server.sourcelink.json
+D:\SWD392\TeamGit\PRN-with-team\Exercise02\SimpleChatApplication\ChatServer\obj\Debug\net8.0\Server.dll
+D:\SWD392\TeamGit\PRN-with-team\Exercise02\SimpleChatApplication\ChatServer\obj\Debug\net8.0\refint\Server.dll
+D:\SWD392\TeamGit\PRN-with-team\Exercise02\SimpleChatApplication\ChatServer\obj\Debug\net8.0\Server.pdb
+D:\SWD392\TeamGit\PRN-with-team\Exercise02\SimpleChatApplication\ChatServer\obj\Debug\net8.0\Server.genruntimeconfig.cache
+D:\SWD392\TeamGit\PRN-with-team\Exercise02\SimpleChatApplication\ChatServer\obj\Debug\net8.0\ref\Server.dll
