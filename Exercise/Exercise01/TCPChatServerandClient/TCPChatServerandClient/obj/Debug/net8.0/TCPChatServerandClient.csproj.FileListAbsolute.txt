@@ -1,0 +1,15 @@
+D:\Github\PRN212\Exercise\Exercise01\TCPChatServerandClient\TCPChatServerandClient\bin\Debug\net8.0\TCPChatServerandClient.exe
+D:\Github\PRN212\Exercise\Exercise01\TCPChatServerandClient\TCPChatServerandClient\bin\Debug\net8.0\TCPChatServerandClient.deps.json
+D:\Github\PRN212\Exercise\Exercise01\TCPChatServerandClient\TCPChatServerandClient\bin\Debug\net8.0\TCPChatServerandClient.runtimeconfig.json
+D:\Github\PRN212\Exercise\Exercise01\TCPChatServerandClient\TCPChatServerandClient\bin\Debug\net8.0\TCPChatServerandClient.dll
+D:\Github\PRN212\Exercise\Exercise01\TCPChatServerandClient\TCPChatServerandClient\bin\Debug\net8.0\TCPChatServerandClient.pdb
+D:\Github\PRN212\Exercise\Exercise01\TCPChatServerandClient\TCPChatServerandClient\obj\Debug\net8.0\TCPChatServerandClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\PRN212\Exercise\Exercise01\TCPChatServerandClient\TCPChatServerandClient\obj\Debug\net8.0\TCPChatServerandClient.AssemblyInfoInputs.cache
+D:\Github\PRN212\Exercise\Exercise01\TCPChatServerandClient\TCPChatServerandClient\obj\Debug\net8.0\TCPChatServerandClient.AssemblyInfo.cs
+D:\Github\PRN212\Exercise\Exercise01\TCPChatServerandClient\TCPChatServerandClient\obj\Debug\net8.0\TCPChatServerandClient.csproj.CoreCompileInputs.cache
+D:\Github\PRN212\Exercise\Exercise01\TCPChatServerandClient\TCPChatServerandClient\obj\Debug\net8.0\TCPChatServerandClient.sourcelink.json
+D:\Github\PRN212\Exercise\Exercise01\TCPChatServerandClient\TCPChatServerandClient\obj\Debug\net8.0\TCPChatServerandClient.dll
+D:\Github\PRN212\Exercise\Exercise01\TCPChatServerandClient\TCPChatServerandClient\obj\Debug\net8.0\refint\TCPChatServerandClient.dll
+D:\Github\PRN212\Exercise\Exercise01\TCPChatServerandClient\TCPChatServerandClient\obj\Debug\net8.0\TCPChatServerandClient.pdb
+D:\Github\PRN212\Exercise\Exercise01\TCPChatServerandClient\TCPChatServerandClient\obj\Debug\net8.0\TCPChatServerandClient.genruntimeconfig.cache
+D:\Github\PRN212\Exercise\Exercise01\TCPChatServerandClient\TCPChatServerandClient\obj\Debug\net8.0\ref\TCPChatServerandClient.dll

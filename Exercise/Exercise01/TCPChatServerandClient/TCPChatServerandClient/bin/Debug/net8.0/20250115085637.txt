@@ -1,0 +1,23 @@
+sendfilFILEExercise 1: TCP Chat Server and Client
+Objective: Create a simple chat application using TCP sockets.
+
+Task:
+Implement a TCP server that listens for incoming connections on a specified port.
+Implement a TCP client that connects to the server.
+Enable clients to send messages to the server, and the server broadcasts these messages to all connected clients.
+
+Requirements:
+The server must handle multiple clients simultaneously using threading or asynchronous programming.
+Messages from one client should be broadcasted to all connected clients, including the sender.
+Provide a simple console interface for both the server and clients to send and display messages.
+
+Hints:
+Use TcpListener for the server and TcpClient for the client.
+Use NetworkStream to read and write data between the server and clients.
+Consider implementing message framing or a simple delimiter for consistent communication.
+
+========Upgrade bài trên +3 ========
+Dùng TCPClient và TCPListener : Client gửi file txt chứa các con số đã sắp xếp (bài Day1)
+Bên nhận được lưu file chưa đầy đủ nội dung
+Tên file theo format mat YYYYMMddHHmmss.txt
+wasd
