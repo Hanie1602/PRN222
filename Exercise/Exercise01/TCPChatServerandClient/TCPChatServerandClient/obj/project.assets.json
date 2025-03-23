@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\PRN212\\Exercise\\Exercise01\\TCPChatServerandClient\\TCPChatServerandClient\\TCPChatServerandClient.csproj",
+      "projectUniqueName": "D:\\Github\\PRN-with-team\\Exercise\\Exercise01\\TCPChatServerandClient\\TCPChatServerandClient\\TCPChatServerandClient.csproj",
       "projectName": "TCPChatServerandClient",
-      "projectPath": "D:\\Github\\PRN212\\Exercise\\Exercise01\\TCPChatServerandClient\\TCPChatServerandClient\\TCPChatServerandClient.csproj",
+      "projectPath": "D:\\Github\\PRN-with-team\\Exercise\\Exercise01\\TCPChatServerandClient\\TCPChatServerandClient\\TCPChatServerandClient.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\PRN212\\Exercise\\Exercise01\\TCPChatServerandClient\\TCPChatServerandClient\\obj\\",
+      "outputPath": "D:\\Github\\PRN-with-team\\Exercise\\Exercise01\\TCPChatServerandClient\\TCPChatServerandClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
